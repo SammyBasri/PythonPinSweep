@@ -7,7 +7,7 @@ import sys
 a=sys.argv[1]
 b=int(sys.argv[2])
 c=int(sys.argv[3])
-
+c=c+1
 for x in range(b, c):
         
         d =  (a + "." + str(x))
